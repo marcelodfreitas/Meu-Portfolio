@@ -44,6 +44,7 @@ section {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    border-bottom: 1px solid #0f0;
 }
 
 .logo {
@@ -75,6 +76,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40rem;
 }
 
 .home-content h3 {
@@ -121,16 +123,25 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     background: transparent;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
-    transition: .5s ease;
+    transition: .5s ease; 
 }
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 100px;
+}
+
 
 .social-media a:hover {
     background: var(--main-color);
@@ -143,16 +154,17 @@ span {
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: none;
     font-size: 1.6rem;
     color: var(--bg-color);
     letter-spacing: .1rem;
-    font-weight: 600;
+    font-weight: 700;
     transition: .5s ease;
+    gap: 10rem;
 }
 
 .btn:hover {
-    box-shadow: none;
+    box-shadow:  0 0 1rem var(--main-color);
 }
 
 .about {
